@@ -89,7 +89,7 @@ export default function VoltageDistributor() {
         <a-image
           id="arrowHotspot"
           src={arrow}
-          position="8.129 -29.863 61.430"
+          position="7.784 -49.196 54.764"
           width="25"
           height="25"
           rotation="0 0 90 "
