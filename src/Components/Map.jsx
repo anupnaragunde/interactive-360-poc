@@ -1,6 +1,6 @@
 // components/Map.jsx
 import React from "react";
-import map from "../assets/Map.png";
+import map from "../assets/map.png";
 import navIcon from "../assets/navigation.png";
 import { useNavigate } from "react-router-dom";
 
