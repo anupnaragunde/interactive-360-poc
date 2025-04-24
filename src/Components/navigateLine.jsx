@@ -17,7 +17,7 @@ const NavigateLine = () => {
           onClick={() => handleNavigate("/")}
           className="cursor-pointer flex flex-col items-center text-white hover:scale-105 transition-transform duration-200"
         >
-          <img src={navImg} alt="Home" className="w-10 h-10" />
+          <img src={navImg} alt="Home" className="w-12 h-12" />
           <span className="text-xs mt-1">Control Panel</span>
         </div>
 
@@ -25,13 +25,13 @@ const NavigateLine = () => {
 
         <div className="flex items-center gap-2">
           {/* Left Line */}
-          <div className="h-0.5 w-8 bg-white" />
+          <div className="h-0.5 w-8 bg-black" />
 
           {/* Arrow Head */}
 
           {/* Right Line */}
-          <div className="h-0.5 w-8 bg-white" />
-          <div className="w-3 h-3 border-t-2 border-r-2 border-white rotate-45" />
+          <div className="h-0.5 w-8 bg-black" />
+          <div className="w-3 h-3 border-t-2 border-r-2 border-black rotate-45" />
         </div>
 
         {/* Outdoor Icon */}
@@ -39,7 +39,7 @@ const NavigateLine = () => {
           onClick={() => handleNavigate("/outdoor")}
           className="cursor-pointer flex flex-col items-center text-white hover:scale-105 transition-transform duration-200"
         >
-          <img src={navImg} alt="Outdoor" className="w-10 h-10" />
+          <img src={navImg} alt="Outdoor" className="w-12 h-12" />
           <span className="text-xs mt-1">Outdoor</span>
         </div>
       </div>
